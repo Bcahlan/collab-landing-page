@@ -1,0 +1,180 @@
+/* App.css */
+body {
+  margin: 0;
+  background: linear-gradient(to bottom right, #f9fafb, #ffffff);
+  color: #111827;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nav-links a {
+  margin-left: 1.5rem;
+  color: #6b7280;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #007aff;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  color: #4b5563;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-button {
+  background-color: #007aff;
+  color: white;
+  font-size: 1.125rem;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 999px;
+  box-shadow: 0 10px 20px rgba(0, 122, 255, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.cta-button:hover {
+  transform: scale(1.05);
+}
+
+.video-wrapper {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  max-width: 800px;
+  width: 100%;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: 450px;
+  border: none;
+}
+
+.vibe-space {
+  background-color: #f3f4f6;
+  border-radius: 2rem;
+  padding: 3rem;
+  margin-top: 4rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.vibe-space img {
+  width: 350px;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.vibe-space-text {
+  flex: 1;
+  max-width: 500px;
+}
+
+.vibe-space-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.vibe-space-text p {
+  font-size: 1rem;
+  color: #4b5563;
+}
+
+.creator-lounge {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.creator-lounge h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.creator-lounge p {
+  font-size: 1rem;
+  color: #6b7280;
+  max-width: 700px;
+  margin: 0 auto 3rem auto;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.feature-box {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  max-width: 300px;
+}
+
+.feature-box h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.feature-box p {
+  font-size: 0.95rem;
+  color: #4b5563;
+}
+
+footer {
+  margin-top: 6rem;
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #9ca3af;
+}
